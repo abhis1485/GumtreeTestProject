@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="2878" started-at="2021-02-10T13:21:10Z" finished-at="2021-02-10T13:21:13Z">
+    <groups>
+    </groups>
+    <test name="Configurations" duration-ms="15" started-at="2021-02-10T13:21:10Z" finished-at="2021-02-10T13:21:10Z">
+    </test> <!-- Configurations -->
+    <test name="Test1" duration-ms="2809" started-at="2021-02-10T13:21:10Z" finished-at="2021-02-10T13:21:13Z">
+      <class name="com.gumtree.testplan.gtTestCase">
+        <test-method status="PASS" signature="testCase1(java.lang.String)[pri:0, instance:com.gumtree.testplan.gtTestCase@11758f2a]" name="testCase1" duration-ms="2791" started-at="2021-02-10T13:21:10Z" description="Test Case 1" finished-at="2021-02-10T13:21:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gumtree.properties]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+      </class> <!-- com.gumtree.testplan.gtTestCase -->
+      <class name="com.gumtree.config.gumtreeConfigs">
+        <test-method status="PASS" signature="preClass(java.lang.String, java.lang.String)[pri:0, instance:com.gumtree.config.gumtreeConfigs@1a1d6a08]" name="preClass" is-config="true" duration-ms="14748" started-at="2021-02-10T13:20:55Z" finished-at="2021-02-10T13:21:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.gumtree.com.au/s-ad/1266454340 ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gumtree.properties]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preClass -->
+        <test-method status="PASS" signature="postSuite()[pri:0, instance:com.gumtree.config.gumtreeConfigs@1a1d6a08]" name="postSuite" is-config="true" duration-ms="897" started-at="2021-02-10T13:21:13Z" finished-at="2021-02-10T13:21:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postSuite -->
+      </class> <!-- com.gumtree.config.gumtreeConfigs -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>

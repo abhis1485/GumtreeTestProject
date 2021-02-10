@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="gumtreeFile" value="gumtree.properties"/>
+  <parameter name="url" value="https://www.gumtree.com.au/s-ad/1266454340 "/>
+  <test thread-count="5" name="Test1(failed)">
+    <classes>
+      <class name="com.gumtree.testplan.gtTestCase">
+        <methods>
+          <include name="testCase1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.gumtree.testplan.gtTestCase -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

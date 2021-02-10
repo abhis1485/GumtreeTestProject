@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+	
+	<parameter name="gumtreeFile" value="gumtree.properties" />
+	<parameter name="url" value="https://www.gumtree.com.au/s-ad/1266454340 " />
+
+	<test name="Configurations">
+		<classes>
+			<class name="com.gumtree.config.gumtreeConfigs" />
+		</classes>
+	</test>
+	<test name="Test1">
+		<classes>
+			<class name="com.gumtree.testplan.gtTestCase" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->
+
